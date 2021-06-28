@@ -1,0 +1,54 @@
+.main-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #f3f3f3;
+  height: calc(100vh - 4rem);
+}
+
+.main-section main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100vw;
+  overflow-y: auto;
+}
+
+.main-section main .content-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2rem;
+  width: inherit;
+  overflow-y: auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.main-section main .content-section .content-card {
+  max-width: 640px;
+  min-height: 128px;
+  background-color: white;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0 4px 8px #00000010;
+          box-shadow: 0 4px 8px #00000010;
+}
+/*# sourceMappingURL=mainSection.css.map */

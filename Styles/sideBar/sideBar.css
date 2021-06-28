@@ -1,0 +1,27 @@
+.side-bar {
+  width: 360px;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+  overflow-y: auto;
+}
+
+.side-bar .sb-contents {
+  height: 2rem;
+  width: 12rem;
+  background-color: white;
+  margin: 2rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 4px 8px #00000010;
+          box-shadow: 0 4px 8px #00000010;
+}
+
+@media only screen and (max-width: 900px) {
+  .side-bar {
+    display: none;
+  }
+}
+/*# sourceMappingURL=sideBar.css.map */

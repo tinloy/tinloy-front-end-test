@@ -1,0 +1,22 @@
+.side-bar {
+    width: 360px;
+    flex-grow: 2;
+    position: sticky;
+    top: 100px;
+    overflow-y: auto;
+
+    .sb-contents {
+        height: 2rem;
+        width: 12rem;
+        background-color: white;
+        margin: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 4px 8px #00000010;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .side-bar {
+        display: none;
+    }
+}

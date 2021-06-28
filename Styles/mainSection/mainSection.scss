@@ -1,0 +1,33 @@
+.main-section {
+    display: flex;
+    flex-direction: row;
+    background-color: #f3f3f3;
+    height: calc(100vh - 4rem);
+
+    main {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        overflow-y: auto;
+    
+        .content-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 2rem;
+            width: inherit;
+            overflow-y: auto;
+            height: fit-content;
+    
+            .content-card {
+                max-width: 640px;
+                min-height: 128px;    
+                background-color: white;
+                margin: 1rem;
+                padding: 1rem;
+                border-radius: 0.5rem;
+                box-shadow: 0 4px 8px #00000010;
+            }
+        }
+    }
+}

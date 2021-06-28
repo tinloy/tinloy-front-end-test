@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+@import './navBar/navBar.scss';
+@import './mainSection/mainSection.scss';
+@import './sideBar/sideBar.scss';
